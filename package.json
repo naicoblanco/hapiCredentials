@@ -1,0 +1,31 @@
+{
+  "name": "hapicredentials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -a code -t 100 -L -v",
+    "start": "node lib/start.js"
+  },
+  "engines": {
+     "node": ">= 5.x.x",
+     "npm": ">= 3.x"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguel-Herrero/hapiCredentials.git"
+  },
+  "author": "Miguel Herrero <miguel.herrerobaena@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Miguel-Herrero/hapiCredentials/issues"
+  },
+  "homepage": "https://github.com/Miguel-Herrero/hapiCredentials#readme",
+  "dependencies": {
+    "hapi": "^13.2.1"
+  },
+  "devDependencies": {
+    "code": "^2.1.0",
+    "lab": "^10.2.0"
+  }
+}
