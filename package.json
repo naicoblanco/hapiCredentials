@@ -24,6 +24,7 @@
   "dependencies": {
     "glue": "^3.2.0",
     "hapi": "^13.2.1",
+    "hapi-auth-jwt": "^4.0.0",
     "hoek": "^3.0.4"
   },
   "devDependencies": {
