@@ -1,0 +1,26 @@
+{
+	"foo": {
+        "id": 1,
+        "username": "Foo Foo",
+        "password": "foo",
+        "email": "foo@hapiu.com",
+        "scope": ["admin", "user"],
+		"apps": [
+			{
+				"id": "d063b4008003",
+				"key": "werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn",
+				"algorithm": "sha256"
+			}
+		]
+	},
+	"bar": {
+        "id": 2,
+        "username": "Barica",
+		"password": "bar",
+        "email": "bar@hapiu.com",
+        "scope": ["user"],
+		"apps": [
+
+		]
+	}
+}
