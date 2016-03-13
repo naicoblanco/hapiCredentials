@@ -8,9 +8,9 @@
     "start": "node lib/start.js"
   },
   "engines": {
-     "node": ">= 5.x.x",
-     "npm": ">= 3.x"
-   },
+    "node": ">= 5.x.x",
+    "npm": ">= 3.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Miguel-Herrero/hapiCredentials.git"
@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/Miguel-Herrero/hapiCredentials#readme",
   "dependencies": {
-    "hapi": "^13.2.1"
+    "glue": "^3.2.0",
+    "hapi": "^13.2.1",
+    "hoek": "^3.0.4"
   },
   "devDependencies": {
     "code": "^2.1.0",
